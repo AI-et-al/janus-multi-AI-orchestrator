@@ -1,0 +1,10 @@
+{
+  "name": "dual-flow",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "codex-flow",
+    "claude-flow",
+    "janus"
+  ]
+}

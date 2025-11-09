@@ -1,0 +1,20 @@
+{
+  "name": "janus-orchestrator",
+  "version": "0.1.0",
+  "description": "Janus: dual-flow orchestrator (Codex + Claude-style planner)",
+  "main": "dist/index.js",
+  "bin": {
+    "janus": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+import 'dotenv/config';
+import OpenAI from 'openai';
+
+const apiKey = process.env.OPENAI_API_KEY;
+if (!apiKey) {
+  throw new Error('OPENAI_API_KEY is not set');
+}
+
+export const openai = new OpenAI({ apiKey });
+
+export async function codexFlow(system: string, user: string): Promise<string> {
+  const res = await openai.chat.completions.create({
+    model: 'gpt-4.1-mini',
+    messages: [
+      { role: 'system', content: system },
+      { role: 'user', content: user }
+    ]
+  });
+
+  return res.choices[0]?.message?.content ?? '';
+}
