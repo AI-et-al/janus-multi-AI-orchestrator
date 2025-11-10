@@ -1,6 +1,6 @@
-# Dual-Flow: Multi-AI Orchestration System
+# Janus: Multi-AI Orchestration [GPT-5 Codex & Claude Code now, Gemini to come on release of 3.0] 
 
-Dual-Flow is a production-ready system for coordinating multiple AI agents in collaborative workflows. It consists of two core components:
+Janus is a production-ready system for coordinating multiple AI agents in collaborative workflows. It consists of two core components:
 
 - **`codex-flow/`**: Execution, memory, and logging layer powered by OpenAI
 - **`janus/`**: Dual-headed planner (Codex + Claude-style) that produces merged system prompts and reference notes
