@@ -139,9 +139,13 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ## Contributing
 
-This is a production system. Contributions should:
+This is a pre-production system. Contributions should:
 - Maintain TypeScript strict mode
 - Follow the "boring reliability over clever hacks" principle
 - Never commit secrets or API keys
 - Include tests for new features
 
+## Thanks!
+
+- huge thanks to @rUv for claude-flow, et al - (https://github.com/ruvnet)
+   
