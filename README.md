@@ -1,6 +1,6 @@
 # Janus: Multi-AI Orchestration [GPT-5 Codex & Claude Code now, Gemini to come on release of 3.0] 
 
-Janus is a production-ready system for coordinating multiple AI agents in collaborative workflows. It consists of two core components:
+Janus is a an early stage system for coordinating multiple AI agents in collaborative workflows. It consists of two core components:
 
 - **`codex-flow/`**: Execution, memory, and logging layer powered by OpenAI
 - **`janus/`**: Dual-headed planner (Codex + Claude-style) that produces merged system prompts and reference notes
